@@ -1,2 +1,3 @@
-# halyard
-Website for Halyard Consulting
+# Halyard
+
+Repo for halyard consulting website
