@@ -1,0 +1,13 @@
+.nav {
+  font-weight: bolder;
+  padding: var(--grid-double) 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navItems {
+  display: flex;
+  gap: var(--grid-double);
+}

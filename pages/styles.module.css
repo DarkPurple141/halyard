@@ -1,0 +1,16 @@
+.main {
+  padding-top: 15vh;
+  width: calc(100% / var(--golden-ratio));
+}
+
+.main > * {
+  margin-bottom: 20px;
+}
+
+.splash {
+  font-size: 3rem;
+}
+
+.supporting {
+  font-size: 1.25rem;
+}

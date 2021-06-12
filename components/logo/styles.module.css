@@ -1,0 +1,6 @@
+.logo {
+  display: grid;
+  grid-template-columns: 0.8rem 1fr;
+  gap: var(--grid);
+  align-items: baseline;
+}
