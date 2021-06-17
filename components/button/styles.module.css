@@ -9,9 +9,9 @@
   padding: 0.6em 1.1em;
   background-color: var(--brand-primary);
   cursor: pointer;
-  transition: opacity 0.3s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .button:hover {
-  opacity: 0.9;
+  transform: scale(1.02) translateZ(0px);
 }

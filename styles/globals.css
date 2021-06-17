@@ -49,6 +49,8 @@ p {
   color: var(--secondary-text);
 }
 
-img {
+img,
+svg {
+  height: auto;
   max-width: 100%;
 }

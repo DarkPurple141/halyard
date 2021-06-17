@@ -9,8 +9,8 @@ export default function Home() {
         growing companies.
       </h1>
       <p className={styles.supporting}>
-        We help teams of all shapes and sizes design and build great apps and
-        products. We’d love to work with you.
+        We&apos;re focused on bridging technical gaps for our clients in design,
+        automation and custom software development. We’d love to work with you.
       </p>
       <Button>Get in touch</Button>
     </main>

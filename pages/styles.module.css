@@ -4,7 +4,7 @@
 }
 
 .main > * {
-  margin-bottom: 20px;
+  margin-bottom: calc(var(--grid) * 3);
 }
 
 .splash {
@@ -13,4 +13,11 @@
 
 .supporting {
   font-size: 1.25rem;
+}
+
+@media screen and (orientation: portrait) {
+  .main {
+    padding-top: 10vh;
+    width: auto;
+  }
 }
