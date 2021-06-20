@@ -9,7 +9,8 @@
   --grid-double: calc(var(--grid) * 2);
   --border-radius: var(--grid);
   --golden-ratio: 1.65;
-  --brand-primary: red;
+  --brand-primary: #f33;
+  --brand-primary-dark: #f66;
   --primary-text: #011;
   --secondary-text: #345;
   --inverse-text-primary: #f1f1f1;
@@ -21,6 +22,12 @@
     --primary-text: #f1f1f1;
     --secondary-text: #ccc;
     --inverse-text-primary: #011;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  body {
+    font-size: 14px;
   }
 }
 
