@@ -12,7 +12,9 @@ export default function Home() {
         We&apos;re focused on bridging technical gaps for our clients in design,
         automation and custom software development. We’d love to work with you.
       </p>
-      <Button>Get in touch</Button>
+      <form action="mailto:hello@halyard.dev">
+        <Button type="submit">Get in touch</Button>
+      </form>
     </main>
   )
 }
