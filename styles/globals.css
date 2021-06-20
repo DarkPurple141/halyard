@@ -26,6 +26,7 @@
 }
 
 @media screen and (orientation: portrait) {
+  html,
   body {
     font-size: 14px;
   }
