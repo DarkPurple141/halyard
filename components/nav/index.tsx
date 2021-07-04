@@ -7,7 +7,7 @@ const Nav: FC = () => (
     <nav className={styles.nav}>
       <Logo />
       <div className={styles.navItems}>
-        <a href="/">Consultancy</a>
+        <a href="/">About</a>
         <a href="/">Contact</a>
       </div>
     </nav>
