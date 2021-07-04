@@ -3,12 +3,13 @@ import { FC } from 'react'
 const Footer: FC = () => (
   <footer
     style={{
-      position: 'absolute',
-      bottom: '0',
-      padding: 'var(--grid-double) 0',
+      visibility: 'hidden',
     }}
   >
     <address>
+      <p>
+        <a href="mailto:hello@halyard.dev">hello@halyard.dev</a>
+      </p>
       <p>Copyright Halyard 2021 | Surry Hills, NSW, Australia</p>
     </address>
   </footer>
