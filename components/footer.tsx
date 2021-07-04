@@ -8,7 +8,9 @@ const Footer: FC = () => (
       padding: 'var(--grid-double) 0',
     }}
   >
-    <address>Copyright Halyard 2021 | Surry Hills, NSW, Australia</address>
+    <address>
+      <p>Copyright Halyard 2021 | Surry Hills, NSW, Australia</p>
+    </address>
   </footer>
 )
 
