@@ -1,0 +1,24 @@
+.field {
+  margin: var(--grid-double) 0;
+  display: grid;
+  color: var(--secondary-text);
+}
+
+.field label {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.input {
+  color: var(--primary-text);
+  max-width: none;
+  display: block;
+  padding: var(--grid) 0;
+  border: none;
+  border-bottom: 1px solid var(--secondary-text);
+  outline: none;
+  background-color: transparent;
+  color: inherit;
+  appearance: none;
+  font: inherit;
+}

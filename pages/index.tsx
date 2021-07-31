@@ -10,12 +10,9 @@ export default function Home() {
       </h1>
       <p className={styles.supporting}>
         We&apos;re focused on bridging technical gaps for our clients in design,
-        design, automation and custom software development . We’d love to work
-        with you.
+        automation and custom software development. We’d love to work with you.
       </p>
-      <form action="mailto:hello@halyard.dev">
-        <Button type="submit">Get in touch</Button>
-      </form>
+      <Button href="/contact">Get in touch</Button>
     </main>
   )
 }

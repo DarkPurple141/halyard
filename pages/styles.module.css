@@ -1,5 +1,4 @@
 .main {
-  padding-top: 15vh;
   width: calc(100% / var(--golden-ratio));
 }
 
@@ -11,13 +10,18 @@
   font-size: 3rem;
 }
 
+.form {
+  display: grid;
+  gap: var(--grid);
+}
+
 .supporting {
   font-size: 1.25rem;
 }
 
 @media screen and (orientation: portrait) {
   .main {
-    padding-top: 10vh;
+    padding-top: var(--grid);
     width: auto;
   }
 }

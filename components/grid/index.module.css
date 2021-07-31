@@ -1,5 +1,9 @@
 .grid {
+  display: flex;
   padding: 0 var(--grid-double);
   max-width: 870px;
+  height: 100vh;
   margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-between;
 }

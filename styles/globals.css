@@ -18,10 +18,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --body-bg: #011;
+    --body-bg: #122;
     --primary-text: #f1f1f1;
     --secondary-text: #ccc;
-    --inverse-text-primary: #011;
+    --inverse-text-primary: #122;
   }
 }
 

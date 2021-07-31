@@ -1,12 +1,13 @@
 import { FC } from 'react'
-// <a href="mailto:hello@halyard.dev">hello@halyard.dev</a> |
+
 const Footer: FC = () => (
-  <footer
-    style={{
-      visibility: 'hidden',
-    }}
-  >
-    <address>
+  <footer>
+    <p>Made with ❤️ in Sydney, Australia</p>
+    <address
+      style={{
+        visibility: 'hidden',
+      }}
+    >
       <p>
         <a href="mailto:hello@halyard.dev">hello@halyard.dev</a>
       </p>
