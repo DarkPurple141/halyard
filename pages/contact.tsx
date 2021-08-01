@@ -15,8 +15,8 @@ export default function Contact() {
         }}
         className={styles.form}
       >
-        <Textfield name="name" label="Name" />
-        <Textfield name="email" type="email" label="Email" />
+        <Textfield required name="name" label="Name" />
+        <Textfield required name="email" type="email" label="Email" />
         <TextArea name="description" label="Your enquiry" rows={4} />
         <Button type="submit">Submit details</Button>
       </form>

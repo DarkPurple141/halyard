@@ -1,4 +1,5 @@
 .button {
+  display: inline-block;
   font-weight: bold;
   font-size: 1.4rem;
   border: none;
