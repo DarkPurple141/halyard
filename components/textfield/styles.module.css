@@ -1,6 +1,7 @@
 .field {
-  margin: var(--grid-double) 0;
+  margin: var(--grid) 0;
   display: grid;
+  gap: var(--grid);
   color: var(--secondary-text);
 }
 
@@ -10,15 +11,19 @@
 }
 
 .input {
+  background-color: var(--inverse-text-primary);
   color: var(--primary-text);
   max-width: none;
   display: block;
-  padding: var(--grid) 0;
+  padding: var(--grid-double) var(--grid);
   border: none;
-  border-bottom: 1px solid var(--secondary-text);
+  border-radius: var(--border-radius);
   outline: none;
-  background-color: transparent;
   color: inherit;
   appearance: none;
   font: inherit;
+}
+
+.input:focus-visible {
+  box-shadow: var(--focus-shadow);
 }

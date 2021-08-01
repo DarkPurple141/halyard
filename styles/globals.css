@@ -12,8 +12,11 @@
   --brand-primary: #f33;
   --brand-primary-dark: #f66;
   --primary-text: #011;
-  --secondary-text: #345;
+  --secondary-text: #344;
   --inverse-text-primary: #f1f1f1;
+  --focus-color: #eee;
+  --focus-shadow: 0px 0px 0px 3px var(--body-bg),
+    0px 0px 0px 6px var(--focus-color);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,7 +24,8 @@
     --body-bg: #122;
     --primary-text: #f1f1f1;
     --secondary-text: #ccc;
-    --inverse-text-primary: #122;
+    --inverse-text-primary: #344;
+    --focus-color: #bbb;
   }
 }
 

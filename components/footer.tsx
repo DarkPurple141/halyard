@@ -2,7 +2,7 @@ import { FC } from 'react'
 
 const Footer: FC = () => (
   <footer>
-    <p>Made with ❤️ in Sydney, Australia</p>
+    <p>Made with ❤️&nbsp; in Sydney, Australia</p>
     <address
       style={{
         visibility: 'hidden',
