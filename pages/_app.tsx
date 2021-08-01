@@ -14,6 +14,7 @@ function MyApp({ Component, pageProps }: any) {
           content="Halyard is an Australia-based software solutions consultancy"
         />
         <link rel="icon" href="/favicon.ico" />
+        <script async src="https://cdn.splitbee.io/sb.js" />
       </Head>
       <Nav />
       <Component {...pageProps} />
