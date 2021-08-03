@@ -21,3 +21,9 @@
 .button:focus-visible {
   box-shadow: var(--focus-shadow);
 }
+
+@media screen and (orientation: portrait) {
+  .button {
+    font-size: 1.25rem;
+  }
+}

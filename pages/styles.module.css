@@ -20,6 +20,10 @@
 }
 
 @media screen and (orientation: portrait) {
+  .splash {
+    font-size: 2rem;
+  }
+
   .main {
     padding-top: var(--grid);
     width: auto;

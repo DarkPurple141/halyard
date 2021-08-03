@@ -1,10 +1,11 @@
 import { FC } from 'react'
 
 const Footer: FC = () => (
-  <footer>
+  <footer style={{ padding: 'var(--grid-double) 0' }}>
     <p>Made with ❤️&nbsp; in Sydney, Australia</p>
     <address
       style={{
+        display: 'none',
         visibility: 'hidden',
       }}
     >
