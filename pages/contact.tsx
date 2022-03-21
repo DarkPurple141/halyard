@@ -35,7 +35,7 @@ export default function Contact() {
           placeholder="sarah@example.com"
         />
         <TextArea name="description" label="Your enquiry" rows={4} />
-        <Button type="submit">
+        <Button type="submit" disabled={isLoading}>
           {isLoading ? 'Submitting' : 'Submit details'}
         </Button>
       </form>
