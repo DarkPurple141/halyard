@@ -31,11 +31,11 @@ const handler: NextApiHandler = async (req, res) => {
       forwardEmail(email, name, description),
     ])
     console.log('Emails sent')
+    res.status(200).json(req.body)
   } catch (error) {
-    console.warn(error)
+    console.error(error)
+    res.status(500)
   }
-
-  res.status(200).json(req.body)
 }
 
 export default handler
